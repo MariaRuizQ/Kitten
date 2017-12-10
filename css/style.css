@@ -1,22 +1,38 @@
-	.imagen-fondo{
-		width: 100%;
-		height: 100px;
-		/*background-image: url('../assets/imagenes/sunny-day.jpg');*/
-		background-color: green;
-	}
+.imagen-fondo{
+	width: 100%;
+	height: 500px;
+	background-size: contain;
+	background-image: url('../assets/imagenes/night.jpg');
+}
+.cat-medium{
+	display: none;
+}
+.cat-large{
+	display: none;
+}
 @media (min-width: 768px) {
 	.imagen-fondo{
 		width: 100%;
-		height: 100px;
-		/*background-image: url('../assets/imagenes/sunny-day.jpg');*/
-		background-color: red;
+		background-size: contain;
+		background-image: url('../assets/imagenes/sunny-day.jpg');
+	}
+	.cat-small{
+		display: none;
+	}
+	.cat-medium{
+		display: inline-block;
 	}
 }
 @media (min-width: 992px){
 	.imagen-fondo{
 		width: 100%;
-		height: 100px;
-		/*background-image: url('../assets/imagenes/sunny-day.jpg');*/
-		background-color: pink;
+		background-size: contain;
+		background-image: url('../assets/imagenes/dawn.png');
+	}
+	.cat-medium{
+		display: none;
+	}
+	.cat-large{
+		display: inline-block;
 	}
 }
